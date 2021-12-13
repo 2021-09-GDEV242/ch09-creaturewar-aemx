@@ -19,7 +19,7 @@ public class Human extends Creature
      * Note that the calling class does not need to know anything about the 
      * requirements of human minimum and maximum values
      * 
-     * The instantiating class asks for a Human and the human class is responsible for
+     * The instantiating class asks for a Human and the Human class is responsible for
      * return a Human object with values in the appropriate range
      * 
      */

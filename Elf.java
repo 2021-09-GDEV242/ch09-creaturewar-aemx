@@ -16,7 +16,7 @@ public class Elf extends Creature
 
     /**
      * Constructor for objects of class Elf -
-     * The instantiating class asks for a Elf and the human class is responsible for
+     * The instantiating class asks for a Elf and the Elf class is responsible for
      * returing an Elf object with values in the appropriate range
      */
     public Elf()
