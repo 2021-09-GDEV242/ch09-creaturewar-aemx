@@ -2,6 +2,7 @@
  * The Elf class implements a wrapper for the base Creature class with the following additions
  * Implements a maximum/minimum strength for the creature type [18/5]
  * Implements a maximum/minimum hitpoint total for the creature type [25/8]
+ * Implements a 10% chance to override attack and cause doubled damage
  * 
  * @author Spencer Gunning
  * @version 2021.12.12
@@ -33,7 +34,7 @@ public class Elf extends Creature
      * Has a 10% to do magical damage and double the damage returned another creature
      * @return a value to be used to cause damage to another creature
      */
-    public int attack(){
+    public int attack() {
         if (Randomizer.nextInt(10) == 1) {
             return super.attack() * 2;
         }
